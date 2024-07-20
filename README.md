@@ -157,6 +157,6 @@ ssh -i private-key username@IP-adress
 
 ![Default NextJS home page](.github/app.png)
 
-![AWS EC2 - Resources](.github/AWS console EC2.png)
+![AWS EC2 - Resources](.github/AWS_console_EC2.png)
 
-![AWS EC2 - Instance](.github/AWS instance.png)
+![AWS EC2 - Instance](.github/AWS_instance.png)
