@@ -1,0 +1,9 @@
+location=""
+port= 0000
+image_name=""
+tf_version=""
+access_key=""
+secret_key=""
+aws_instance_name=""
+key_pair=""
+ssh_key_path=""
