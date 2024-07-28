@@ -19,8 +19,8 @@ Create a Docker Image containing a `README` and a web-server application.
 
 ## 🚀 Launch project
 
-- Init and apply Terraform
-- Run Ansible playbook
+- Init and apply Terraform [Easy goto](#-terraform)
+- Run Ansible playbook [Easy goto](#-ansible)
 
 ## NextJS application
 
@@ -53,6 +53,7 @@ npm run dev # Or see cleint/REAMDE.md
 **Connect AWS CLI**
 
 > You have to already have a secret key and an access key
+> [Easy goto to create key](#get-access-key-and-secret-key-from-aws)
 
 ```bash
 aws configure
@@ -97,7 +98,9 @@ cd terraform-aws
 ```
 
 > 💡Generate a SSH key
-
+> 
+> [Easy goto to create key](#generate-a-ssh-public-key)
+> 
 > 💡You can add your own variables value in `prod.tfvars` 
 
 ```bash
@@ -120,7 +123,7 @@ terraform destroy
 # or terraform apply -var-file {FILE NAME VARS}
 ```
 
-Try to connect to your EC2 instance
+Try to connect to your EC2 instance [Easy goto to connect](#connect-to-your-ec2-instance)
 
 ## 🧰 Ansible
 
@@ -129,7 +132,7 @@ Try to connect to your EC2 instance
 - Install Docker
 - Build and push Docker Image on AWS VM
 
-In `ansible/inventory` add the `ansible_hostname` corresponding to your EC2 Adress IP
+> 🚨 In `ansible/inventory` add the `ansible_hostname` corresponding to your EC2 Adress IP
 
 **Run playbook**
 
@@ -142,7 +145,7 @@ Access to your application :
 
 ## Others 
 
-### Generate a public key
+### Generate a SSH public key
 
 ```bash
 ssh-keygen -t rsa -b 2048 -f my-key-name
