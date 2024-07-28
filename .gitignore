@@ -8,7 +8,7 @@ terraform-aws/my-key
 terraform-aws/my-key.pub
 terraform-aws/.terraform
 terraform-aws/terraform.tfstate
-terraform-aws/terraform.sfstate.backup
+terraform-aws/terraform.tfstate.backup
 terraform-aws/.terraform.lock.hcl
 
 *.pdf

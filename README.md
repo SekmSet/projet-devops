@@ -47,7 +47,6 @@ npm run dev # Or see cleint/REAMDE.md
 |                      | AWS service name |
 |----------------------|------------------|
 | Virtual Machine (VM) | EC2              |
-| Virtual Machine (VM) | EC2              |
 
 ## 🐳 Docker
 
