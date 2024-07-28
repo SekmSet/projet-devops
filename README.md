@@ -42,11 +42,21 @@ npm run dev # Or see cleint/REAMDE.md
 
 [Localhost](http://localhost:3000)
 
-##  ☁️️AWS
+## ☁️️ AWS
 
 |                      | AWS service name |
 |----------------------|------------------|
 | Virtual Machine (VM) | EC2              |
+| Subnet               | VPC              |
+| Key pair             | EC2              |
+
+**Connect AWS CLI**
+
+> You have to already have a secret key and an access key
+
+```bash
+aws configure
+```
 
 ## 🐳 Docker
 
@@ -156,6 +166,19 @@ ssh -i private-key username@IP-adress
 
 ![Default NextJS home page](.github/app.png)
 
+### Get IP Adress from AWS EC2
+
 ![AWS EC2 - Resources](.github/AWS_console_EC2.png)
 
 ![AWS EC2 - Instance](.github/AWS_instance.png)
+
+### Get Access Key and Secret Key from AWS
+
+![Access to your access keys](.github/0_access.png)
+![Root user access](.github/1_found.png)
+![Create key](.github/2_create.png)
+![Get information about key](.github/3_get.png)
+
+Copy / past your secret key
+
+You can also download CSV file to save it in your computer
