@@ -18,3 +18,8 @@ resource "aws_key_pair" "ec2_key_pair" {
   key_name = var.key_pair
   public_key = file(var.ssh_key_path)
 }
+
+output "instance_public_ip" {
+  description = "Public IP address of the EC2 instance"
+  value       = aws_instance.aws_ec2.public_ip
+}

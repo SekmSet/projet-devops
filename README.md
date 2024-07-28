@@ -123,7 +123,11 @@ terraform destroy
 # or terraform apply -var-file {FILE NAME VARS}
 ```
 
-Try to connect to your EC2 instance [Easy goto to connect](#connect-to-your-ec2-instance)
+Try to connect to your EC2 instance
+
+Terraform will return your Instance Public IP
+
+[Easy goto to connect](#connect-to-your-ec2-instance)
 
 ## 🧰 Ansible
 
@@ -164,6 +168,8 @@ ssh -i private-key username@IP-adress
 ```
 
 > 💡 username is ubuntu
+
+> 💡 Terraform will return your Instance Public IP or [Get IP adresse](#get-ip-adress-from-aws-ec2)
 
 ## 💾 Resources
 
